@@ -60,6 +60,6 @@ Still confused about css grid and i learn that i can use css grid if flexbox sti
 
 ## Author
 
-- Website - [Add your name here](https://github.com/leonarchiez)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/akhdrzki)
+- Website - [Github](https://github.com/leonarchiez)
+- Frontend Mentor - [@akhdrzki](https://www.frontendmentor.io/profile/akhdrzki)
 
