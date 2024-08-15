@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3-Column-Preview-Card</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./dist/output.css" />
+
+  </head>
+  <body
+    class="flex overflow-scroll flex-wrap justify-center items-center h-screen"
+  >
+    <main
+      class="flex flex-col justify-center items-center py-20 lg:py-0 lg:flex-row"
+    >
+      <section
+        class="p-16 lg:p-12 w-[85%] h-[30rem] lg:w-[21%] lg:h-[30rem] bg-bright-orange rounded-t-lg lg:rounded-tr-none lg:rounded-l-lg space-y-10 lg:space-y-0"
+      >
+        <img
+          class="lg:pb-10 lg:w-[4.3rem] lg:h-[5.3rem]"
+          src="./images/icon-sedans.svg"
+          alt=""
+        />
+        <h1
+          class="text-3xl font-bold lg:text-4xl text-neu-gray font-bigShoulder"
+        >
+          SEDANS
+        </h1>
+        <p class="text-sm lg:pt-10 lg:pb-14 text-neu-white font-lexend">
+          Choose a sedan for its affordability and excellent fuel economy. Ideal
+          for cruising in the city or on your next road trip.
+        </p>
+        <button
+          class="px-7 py-4 text-base bg-white rounded-full text-bright-orange font-lexend lg:px-5 lg:py-3 hover:text-white hover:bg-bright-orange hover:border-2 hover:border-solid"
+        >
+          Learn More
+        </button>
+      </section>
+
+      <section
+        class="p-16 lg:p-12 w-[85%] h-[30rem] lg:w-[21%] lg:h-[30rem] bg-dark-cyan space-y-10 lg:space-y-0"
+      >
+        <img
+          class="lg:pb-10 lg:w-[4.3rem] lg:h-[5.3rem]"
+          src="./images/icon-suvs.svg"
+          alt=""
+        />
+        <h1
+          class="text-3xl font-bold lg:text-4xl text-neu-gray font-bigShoulder"
+        >
+          SUVS
+        </h1>
+        <p class="text-sm text-neu-white font-lexend lg:pt-10 lg:pb-14">
+          Take an SUV for its spacious interior, power, and versatility. Perfect
+          for your next family vacation and off-road adventures.
+        </p>
+        <button
+          class="px-7 py-4 text-base bg-white rounded-full text-dark-cyan lg:px-5 lg:py-3 font-lexend hover:border-solid hover:border-2 hover:text-white hover:bg-dark-cyan"
+        >
+          Learn More
+        </button>
+      </section>
+
+      <section
+        class="p-16 lg:p-12 w-[85%] h-[30rem] lg:w-[21%] lg:h-[30rem] bg-very-dark-cyan rounded-b-lg lg:rounded-r-lg lg:rounded-b-none space-y-10 lg:space-y-0"
+      >
+        <img
+          class="lg:pb-10 lg:w-[4.3rem] lg:h-[5.3rem]"
+          src="./images/icon-luxury.svg"
+          alt=""
+        />
+        <h1
+          class="text-3xl font-bold text-neu-gray lg:text-4xl font-bigShoulder"
+        >
+          LUXURY
+        </h1>
+        <p class="text-sm text-neu-white font-lexend lg:pt-10 lg:pb-14">
+          Choose a sedan for its affordability and excellent fuel economy. Ideal
+          for cruising in the city or on your next road trip.
+        </p>
+        <button
+          class="px-7 py-4 text-base bg-white rounded-full text-very-dark-cyan lg:px-5 lg:py-3 font-lexend hover:border-solid hover:border-2 hover:bg-very-dark-cyan hover:text-white"
+        >
+          Learn More
+        </button>
+      </section>
+    </main>
+
+    <div class="attribution text-slate-700">
+      Challenge by
+      <a class="text-sky-500" href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a class="text-lime-500" href="github.com/leonarchiez">leonarchiez</a>.
+    </div>
+  </body>
+</html>
